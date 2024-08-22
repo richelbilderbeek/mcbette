@@ -83,6 +83,6 @@ mcbette_report <- function(
   kat("****************")
   kat("* session info *")
   kat("****************")
-  message(paste0(devtools::session_info(), collapse = "\n"))
+  message(paste0(sessioninfo::session_info(), collapse = "\n"))
   invisible(NULL)
 }

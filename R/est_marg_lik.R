@@ -92,7 +92,9 @@ est_marg_lik <- function(
         inference_model = inference_model,
         beast2_options = beast2_options
       )
-      testit::assert("ns" %in% names(bbt_run_out))
+      if (!"ns" %in% names(bbt_run_out)) {
+        stop("ns should be in names(bbt_run_out)")
+      }
       ns <- bbt_run_out$ns
     },
     error = function(e) {
@@ -105,6 +107,8 @@ est_marg_lik <- function(
       )
     }
   )
-  testit::assert(!beautier::is_one_na(ns))
+  if (beautier::is_one_na(ns)) {
+    stop("ns shouldn't be a single NA")
+  }
   ns
 }
