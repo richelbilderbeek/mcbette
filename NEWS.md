@@ -1,212 +1,210 @@
-# News
-
 Newest versions at top.
 
-## `mcbette` 1.15.3 (2024-07-23)
+# `mcbette` 1.15.3 (2024-07-23)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Update email address
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.15.2 (2023-09-25)
+# `mcbette` 1.15.2 (2023-09-25)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Use new CITATION style
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.15.1 (2022-10-28)
+# `mcbette` 1.15.1 (2022-10-28)
 
-### NEW FEATURES
-
- * None
-
-### MINOR IMPROVEMENTS
+## NEW FEATURES
 
  * None
 
-### BUG FIXES
+## MINOR IMPROVEMENTS
+
+ * None
+
+## BUG FIXES
 
  * Fix CRAN errors at https://github.com/ropensci/mcbette/issues/44
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.15 (unreleased)
+# `mcbette` 1.15 (unreleased)
 
-### NEW FEATURES
-
- * None
-
-### MINOR IMPROVEMENTS
+## NEW FEATURES
 
  * None
 
-### BUG FIXES
+## MINOR IMPROVEMENTS
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## BUG FIXES
+
+ * None
+
+## DEPRECATED AND DEFUNCT
 
  * Removed 'set_mcbette_state', as this violates CRAN policy
 
-## `mcbette` 1.14 (2021-05-14)
+# `mcbette` 1.14 (2021-05-14)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Use GitHub Actions as a continuous integration service
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * None
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.13 (2020-12-05)
+# `mcbette` 1.13 (2020-12-05)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Add `plot_marg_liks`
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Add `check_marg_liks`
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.12 (2020-11-11)
+# `mcbette` 1.12 (2020-11-11)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Process CRAN feedback, thanks Gregor Seyer
  * Use `message` instead of `cat`/`print`
  * Fix URL in DESCRIPTION
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.11 (2020-10-16)
+# `mcbette` 1.11 (2020-10-16)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Depends on CRAN version of beautier (v2.4)
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.10 (2020-10-15)
+# `mcbette` 1.10 (2020-10-15)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Processed feedback rOpenSci
  * Processed feedback JOSS
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.9 (2020-10-10)
+# `mcbette` 1.9 (2020-10-10)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Transferred repository ownership to rOpenSci 
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Processed feedback rOpenSci
  * Processed feedback JOSS
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.8.4 (2020-05-21)
+# `mcbette` 1.8.4 (2020-05-21)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Use CRAN versions of babette packages
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.8.3 (2020-02-24)
+# `mcbette` 1.8.3 (2020-02-24)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Add `mcbette_self_test` to self-test `mcbette`
  * Add `mcbette_report` to print all information needed for a bug report
@@ -216,7 +214,7 @@ Newest versions at top.
    (2) only BEAST2 is installed (3) neither BEAST2 and the BEAST NS are 
    installed
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Separated the package `mcbette` from a script running it.
    The latter can be found at 
@@ -225,21 +223,21 @@ Newest versions at top.
  * Add AppVeyor build, even though the core feature of `mcbette` 
    requires Linux or MacOS
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.8.2 (2020-01-15)
+# `mcbette` 1.8.2 (2020-01-15)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Added `can_run_mcbette` as a shorthand for three if-statements
  * Added `create_ns_inference_model` for convenience, as it is the same
@@ -249,170 +247,170 @@ Newest versions at top.
  * Prepare for rOpenSci review
  * Added more and better examples to the documentation
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.8.1 (2020-01-14)
+# `mcbette` 1.8.1 (2020-01-14)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Use CRAN version of `babette`
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.8 (2020-01-06)
+# `mcbette` 1.8 (2020-01-06)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Follow interface of beautier v2.3
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Use CRAN versions of `beautier`, `beastier`, `tracerer`, `mauricer`
  * Processed all @lintr-bot's comments
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.7 (2019-09-10)
+# `mcbette` 1.7 (2019-09-10)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Higher number of particles do result in a better estimation
  * Renamed `est_marg_liks_from_models` to `est_marg_liks`,
    removed the old `est_marg_liks`
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * None
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
 
-## `mcbette` 1.6 (2019-08-27)
+# `mcbette` 1.6 (2019-08-27)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Creates BEAST2 temporary files in same folder as the BEAST2 working
    folder. This allows `mcbette` to run on the Groninger Peregrine
    computer cluster
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.5 (2019-08-18)
+# `mcbette` 1.5 (2019-08-18)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Show effective sample size in marginal likelihood estimation
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * None
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
 
-## `mcbette` 1.4 (2019-08-15)
+# `mcbette` 1.4 (2019-08-15)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Removed duplicate `epsilon` argument from `est_marg_liks_from_model`:
    use the `epsilon` supplied in the inference models' nested sampling
    MCMC
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Better error message when using a CBS site model and too few taxa
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.3 (2019-08-14)
+# `mcbette` 1.3 (2019-08-14)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * Added `est_marg_lik` to estimate a single marginal likelihood
  * Disallow failed marginal likelihood estimations in `est_marg_liks`:
    the resulting table will never contain `NA`s
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Better error message when using a CBS site model and too few taxa
  * Builds on Bionic
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
 
-## `mcbette` 1.2
+# `mcbette` 1.2
 
 An untagged release
 
-## `mcbette` 1.1 (2019-05-29)
+# `mcbette` 1.1 (2019-05-29)
 
-### NEW FEATURES
+## NEW FEATURES
 
  * None
 
-### MINOR IMPROVEMENTS
+## MINOR IMPROVEMENTS
 
  * Travis builds on three operating systems
 
-### BUG FIXES
+## BUG FIXES
 
  * None
 
-### DEPRECATED AND DEFUNCT
+## DEPRECATED AND DEFUNCT
 
  * None
