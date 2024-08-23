@@ -31,31 +31,26 @@ Description: 'BEAST2' (<https://www.beast2.org>) is a widely used
 License: GPL-3
 RoxygenNote: 7.3.2
 VignetteBuilder: knitr
-URL: https://github.com/ropensci/mcbette/
+URL: https://docs.ropensci.org/mcbette/, https://github.com/ropensci/mcbette/
 BugReports: https://github.com/ropensci/mcbette/issues
 Imports:
     babette (>= 2.3),
     beautier (>= 2.6.2),
     beastier (>= 2.4.6),
     curl,
-    devtools,
+    sessioninfo,
     mauricer (>= 2.5),
     Rmpfr,
-    testit,
     txtplot
 Suggests:
     ape,
     ggplot2,
-    hunspell,
     knitr,
-    lintr,
-    markdown,
     nLTT,
     phangorn,
     rappdirs,
     rmarkdown,
     spelling,
-    stringr,
     testthat (>= 2.1.0),
     tracerer
 Language: en-US

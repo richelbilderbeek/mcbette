@@ -136,9 +136,11 @@ est_marg_liks <- function(
       "in a scripted way"
     )
   }
-  testit::assert(file.exists(fasta_filename))
-  testit::assert(beastier::is_beast2_installed())
-  testit::assert(mauricer::is_beast2_ns_pkg_installed())
+  stopifnot(
+    file.exists(fasta_filename),
+    beastier::is_beast2_installed(),
+    mauricer::is_beast2_ns_pkg_installed()
+  )
 
   n_rows <- length(inference_models)
 
@@ -173,8 +175,10 @@ est_marg_liks <- function(
       os = os
     )
     if (verbose) message(ns)
-    testit::assert("marg_log_lik" %in% names(ns))
-    testit::assert("marg_log_lik_sd" %in% names(ns))
+    stopifnot(
+      "marg_log_lik" %in% names(ns),
+      "marg_log_lik_sd" %in% names(ns)
+    )
     marg_log_liks[i] <- ns$marg_log_lik
     marg_log_lik_sds[i] <- ns$marg_log_lik_sd
     esses[i] <- ns$ess

@@ -2,8 +2,10 @@ library(mcbette)
 
 if (can_run_mcbette()) {
 
-  testit::assert(beastier::is_beast2_installed())
-  testit::assert(mauricer::is_beast2_ns_pkg_installed())
+  stopifnot(
+    beastier::is_beast2_installed(),
+    mauricer::is_beast2_ns_pkg_installed()
+  )
 
   fasta_filename <- "my_alignment.fas"
 

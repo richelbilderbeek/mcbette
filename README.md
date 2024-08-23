@@ -13,6 +13,8 @@
 | `master`  | ![R-CMD-check](https://github.com/ropensci/mcbette/workflows/R-CMD-check/badge.svg?branch=master)    | [![codecov.io](https://codecov.io/github/ropensci/mcbette/coverage.svg?branch=master)](https://codecov.io/github/ropensci/mcbette?branch=master)   |
 | `develop` | ![R-CMD-check](https://github.com/ropensci/mcbette/workflows/R-CMD-check/badge.svg?branch=develop)   | [![codecov.io](https://codecov.io/github/ropensci/mcbette/coverage.svg?branch=develop)](https://codecov.io/github/ropensci/mcbette?branch=develop) |
 
+[![CRAN status](https://www.r-pkg.org/badges/version/mcbette)](https://CRAN.R-project.org/package=mcbette)
+
 <!-- badges: end -->
 
 ![](man/figures/mcbette_logo.png)

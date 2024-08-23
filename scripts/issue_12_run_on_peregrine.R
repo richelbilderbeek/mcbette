@@ -23,7 +23,7 @@ get_pff_tempfile <- function(
     tmpdir = pff_tmpdir,
     fileext = fileext
   )
-  testit::assert(!file.exists(filename))
+  stopifnot(!file.exists(filename))
   filename
 }
 
